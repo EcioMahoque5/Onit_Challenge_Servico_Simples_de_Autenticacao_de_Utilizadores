@@ -242,4 +242,4 @@ Certifique-se de que o arquivo `.env` contém as variáveis:
 ## Demonstração
 
 - **Local**: `http://127.0.0.1:5000/`
-- **Hospedado**: 
+- **Hospedado**: `https://autenticacao-de-utilizadores-ecio-mahoque.onrender.com`
