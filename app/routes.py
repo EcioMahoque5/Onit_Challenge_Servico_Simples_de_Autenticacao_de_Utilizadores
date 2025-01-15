@@ -104,7 +104,7 @@ def user_login():
     try:
         data = request.get_json()
         
-        logger.info(f'user_login request {data.get('username')}')
+        logger.info(f"user_login request {data.get('username')}")
         
         form = LoginForm(data=data)
 
@@ -169,7 +169,7 @@ def user_logout():
     try:
         data = request.get_json()
         
-        logger.info(f'user_logout request {data.get('username')}')
+        logger.info(f"user_logout request {data.get('username')}")
         form = LogoutForm(data=data)
         
         if form.validate():  
